@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
+	"github.com/17media/test"
 	"github.com/coreos/go-etcd/etcd"
-	"github.com/csigo/test"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -62,7 +62,7 @@ func TestNewLister(t *testing.T) {
 		log.Fatalf("etcd failed, %s", err)
 	}
 	assert.NoError(t, err)
-	etcdEnsemble := fmt.Sprintf("http://localhost:%d", port)
+	etcdEnsemble := fmt.Sprintf("http://localhost:%s", port)
 	etcdCli := etcd.NewClient([]string{etcdEnsemble})
 	assert.NotNil(t, etcdCli)
 	fmt.Println("started etcd")

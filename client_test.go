@@ -5,12 +5,13 @@ import (
 	"log"
 	"path/filepath"
 	"regexp"
+	"strconv"
 	"testing"
 	"time"
 
+	"github.com/17media/portforward"
+	"github.com/17media/test"
 	"github.com/coreos/go-etcd/etcd"
-	"github.com/csigo/portforward"
-	"github.com/csigo/test"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
@@ -39,12 +40,14 @@ func (c *ConfigClientTestSuite) SetupSuite() {
 	c.srvLaunch = test.NewServiceLauncher()
 	port, stop, err := c.srvLaunch.Start(test.Etcd)
 	c.srvStop = stop
-	c.srvPort = port
+	p, err := strconv.Atoi(port)
+	assert.NoError(c.T(), err)
+	c.srvPort = p
 	if err != nil {
 		log.Fatalf("etcd failed, %s", err)
 	}
 	assert.NoError(c.T(), err)
-	etcdEnsemble := fmt.Sprintf("http://localhost:%d", port)
+	etcdEnsemble := fmt.Sprintf("http://localhost:%d", p)
 	c.etcdCli = etcd.NewClient([]string{etcdEnsemble})
 	assert.NotNil(c.T(), c.etcdCli)
 	fmt.Println("started etcd")
