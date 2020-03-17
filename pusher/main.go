@@ -15,9 +15,9 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/17media/config"
 	"github.com/BurntSushi/cmd"
 	"github.com/coreos/go-etcd/etcd"
-	"github.com/csigo/config"
 	log "github.com/sirupsen/logrus"
 )
 

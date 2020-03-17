@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/17media/config"
 	"github.com/coreos/go-etcd/etcd"
-	"github.com/csigo/config"
 )
 
 var (

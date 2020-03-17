@@ -12,9 +12,9 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/17media/config"
+	"github.com/17media/test"
 	"github.com/coreos/go-etcd/etcd"
-	"github.com/csigo/config"
-	"github.com/csigo/test"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )
@@ -55,7 +55,7 @@ func (s *ConfigTestSuite) SetupSuite() {
 		log.Fatalf("etcd failed, %s", err)
 	}
 	assert.NoError(s.T(), err)
-	etcdEnsemble := fmt.Sprintf("http://localhost:%d", port)
+	etcdEnsemble := fmt.Sprintf("http://localhost:%s", port)
 	s.etcdConn = etcd.NewClient(strings.Split(etcdEnsemble, etcdDelimiter))
 	assert.NotNil(s.T(), s.etcdConn)
 
