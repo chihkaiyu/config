@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sirupsen/logrus"
+	"github.com/17media/logrus"
 )
 
 // lister implemnts config library's List() function.

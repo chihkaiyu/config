@@ -18,7 +18,7 @@ import (
 	"github.com/17media/config"
 	"github.com/BurntSushi/cmd"
 	"github.com/17media/go-etcd/etcd"
-	log "github.com/sirupsen/logrus"
+	log "github.com/17media/logrus"
 )
 
 const (

@@ -16,7 +16,7 @@ import (
 	"regexp"
 	"strings"
 
-	log "github.com/sirupsen/logrus"
+	log "github.com/17media/logrus"
 )
 
 var (
