@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/17media/go-etcd/etcd"
 	"github.com/facebookgo/stats"
 	"github.com/sirupsen/logrus"
 )

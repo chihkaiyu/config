@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/17media/config"
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/17media/go-etcd/etcd"
 )
 
 var (
