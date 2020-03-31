@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/coreos/go-etcd/etcd"
+	"github.com/17media/go-etcd/etcd"
 	"github.com/facebookgo/stats"
-	"github.com/sirupsen/logrus"
+	"github.com/17media/logrus"
 )
 
 // Client provides a interface for configuration service
