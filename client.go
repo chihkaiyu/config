@@ -13,7 +13,7 @@ import (
 
 	"github.com/17media/go-etcd/etcd"
 	"github.com/facebookgo/stats"
-	"github.com/17media/logrus"
+	"github.com/chihkaiyu/logrus"
 )
 
 // Client provides a interface for configuration service
