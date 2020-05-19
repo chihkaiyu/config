@@ -10,9 +10,9 @@ require (
 	github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 // indirect
 	github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4
 	github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 // indirect
-	github.com/sirupsen/logrus v1.4.2
+	github.com/stretchr/objx v0.1.1 // indirect
 	github.com/stretchr/testify v1.2.2
-	github.com/ugorji/go v0.0.0-20160928015244-faddd6128c66 // indirect
+	golang.org/x/sys v0.0.0-20190422165155-953cdadca894 // indirect
 )
 
 replace github.com/ugorji/go/fadd => github.com/ugorji/go v0.0.0-20160928015244-faddd6128c66
