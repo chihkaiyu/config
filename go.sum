@@ -1,11 +1,11 @@
 github.com/17media/go-etcd v0.4.7-0.20200327061659-1b135f440cca h1:RZg0ySIvybE9lQ4izlokkch/yD9H1O8xeTnqR5fGIAw=
 github.com/17media/go-etcd v0.4.7-0.20200327061659-1b135f440cca/go.mod h1:1DQ+9v+36CZVVR6bom423bJlc4nYg5rzS5BHoF9HD3o=
-github.com/17media/logrus v1.3.1-0.20200327061211-312c672eb8ee h1:MkxHHonj+vlLvbdnqH9jnUa5/snZ1n0SGctELJo6znc=
-github.com/17media/logrus v1.3.1-0.20200327061211-312c672eb8ee/go.mod h1:wPOk7hcxB5BWBj2WoX6jki/9jTJDDhYoG/am3vnm4po=
+github.com/17media/logrus v1.0.6-0.20200519050833-c3843d4d9a57 h1:JL//U7pkh+50QLPzWAQljUE0QYmC4ec4/kElGbOxa1M=
+github.com/17media/logrus v1.0.6-0.20200519050833-c3843d4d9a57/go.mod h1:i+WztySEo6XHzBPLo67OwPM0lgjYRrff34XUcuhjSVQ=
 github.com/BurntSushi/cmd v0.0.0-20121122232022-d54777ad4400 h1:NxWU+vqPG/W/n+AVQMaV4T2o/YaONlIw8YKaXRUM7PQ=
 github.com/BurntSushi/cmd v0.0.0-20121122232022-d54777ad4400/go.mod h1:BLMQWoKoIt/bljIRnnW4ZmiIL+dgLwHYM+7rgJaN+k4=
-github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
+github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
+github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c h1:8ISkoahWXwZR41ois5lSJBSVw4D0OV19Ht/JSTzvSv0=
 github.com/facebookgo/ensure v0.0.0-20200202191622-63f1cf65ac4c/go.mod h1:Yg+htXGokKKdzcwhuNDwVvN+uBxDGXJ7G/VN1d8fa64=
 github.com/facebookgo/stack v0.0.0-20160209184415-751773369052 h1:JWuenKqqX8nojtoVVWjGfOF9635RETekkoH6Cc9SX0A=
@@ -14,8 +14,6 @@ github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4 h1:0YtRCqIZs2+Tz4
 github.com/facebookgo/stats v0.0.0-20151006221625-1b76add642e4/go.mod h1:vsJz7uE339KUCpBXx3JAJzSRH7Uk4iGGyJzR529qDIA=
 github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4 h1:7HZCaLC5+BZpmbhCOZJ293Lz68O7PYrF2EzeiFMwCLk=
 github.com/facebookgo/subset v0.0.0-20200203212716-c811ad88dec4/go.mod h1:5tD+neXqOorC30/tWg0LCSkrqj/AR6gu8yY8/fpw1q0=
-github.com/konsorten/go-windows-terminal-sequences v1.0.1 h1:mweAR1A6xJ3oS2pRaGiHgQ4OO8tzTaLawm8vnODuwDk=
-github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/stretchr/objx v0.1.1 h1:2vfRuCMp5sSVIDSqO8oNnWJq7mPa6KVP3iPIwFBuy8A=
@@ -24,8 +22,7 @@ github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1
 github.com/stretchr/testify v1.2.2/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 github.com/ugorji/go v0.0.0-20160928015244-faddd6128c66 h1:kkFEgasLLMuoYAgugaFI0lXRT90ONpWsLdAW0z0ujEs=
 github.com/ugorji/go v0.0.0-20160928015244-faddd6128c66/go.mod h1:hnLbHMwcvSihnDhEfx2/BzKp2xb0Y+ErdfYcrs9tkJQ=
-golang.org/x/crypto v0.0.0-20180904163835-0709b304e793 h1:u+LnwYTOOW7Ukr/fppxEb1Nwz0AtPflrblfvUudpo+I=
-golang.org/x/crypto v0.0.0-20180904163835-0709b304e793/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
-golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
-golang.org/x/sys v0.0.0-20190422165155-953cdadca894 h1:Cz4ceDQGXuKRnVBDTS23GTn/pU5OE2C0WrNTOYK1Uuc=
-golang.org/x/sys v0.0.0-20190422165155-953cdadca894/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/crypto v0.0.0-20160510173643-b76c864ef1dc h1:1K1JHVpFA+ciJ3Hjq9vuoTGTbmF58i7bEauCadNu8hI=
+golang.org/x/crypto v0.0.0-20160510173643-b76c864ef1dc/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
+golang.org/x/sys v0.0.0-20190830142957-1e83adbbebd0 h1:7z820YPX9pxWR59qM7BE5+fglp4D/mKqAwCvGt11b+8=
+golang.org/x/sys v0.0.0-20190830142957-1e83adbbebd0/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
